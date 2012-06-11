@@ -23,6 +23,9 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
+    <include package=".browser" />
+    <include file="maplayers.zcml" />
+
     <!-- Resources -->
     <browser:resourceDirectory
         name="collective.geo.zugmap.javascripts"
