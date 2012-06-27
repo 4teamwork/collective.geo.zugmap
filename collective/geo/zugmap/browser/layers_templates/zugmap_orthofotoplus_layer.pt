@@ -33,8 +33,8 @@ function() {
             "http://webdienste.zugmap.ch/orthofotoplus_tiled/service.svc/get",
             "http://www2.zugmap.ch/orthofotoplus_tiled/service.svc/get"
         ],
-        layer : "OrthofotoPlus",
-        matrixSet : "OrthofotoPlus",
+        layer : "LuftbildPlusGoogle",
+        matrixSet : "LuftbildPlusGoogle",
         matrixIds : zugmap_matrixids, 
         tileFullExtent : new OpenLayers.Bounds(919690.324327, 5948635.289264, 978393.96205, 5987771.047746),
         maxExtent : new OpenLayers.Bounds(919690.324327, 5948635.289264, 978393, 5987771),
