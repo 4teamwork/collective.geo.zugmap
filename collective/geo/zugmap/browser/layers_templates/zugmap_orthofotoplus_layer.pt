@@ -28,7 +28,7 @@ function() {
     ]; 
 
     return new OpenLayers.Layer.WMTS({
-        name : "Orthofoto+",
+        name : "LuftbildPlus+",
         url : [
             "http://webdienste.zugmap.ch/orthofotoplus_tiled/service.svc/get",
             "http://www2.zugmap.ch/orthofotoplus_tiled/service.svc/get"
