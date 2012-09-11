@@ -37,7 +37,7 @@ function() {
         matrixIds : zugmap_matrixids, 
         tileFullExtent : new OpenLayers.Bounds(919690.324327, 5948635.289264, 978393.96205, 5987771.047746),
         maxExtent : new OpenLayers.Bounds(919690.324327, 5948635.289264, 978393, 5987771),
-        style : "",
+        style : "default",
         format : "image/png",
         isBaseLayer : true,
         zoomOffset : -11,
