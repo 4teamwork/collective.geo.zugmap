@@ -30,8 +30,7 @@ function() {
     return new OpenLayers.Layer.WMTS({
         name : "LuftbildPlus+",
         url : [
-            "http://webdienste.zugmap.ch/OrthofotoPlus_tiled/service.svc/get",
-            "http://www2.zugmap.ch/OrthofotoPlus_tiled/service.svc/get"
+            "http://webdienste.zugmap.ch/OrthofotoPlus_tiled/service.svc/get"
         ],
         layer : "LuftbildPlusGoogle",
         matrixSet : "LuftbildPlusGoogle",
