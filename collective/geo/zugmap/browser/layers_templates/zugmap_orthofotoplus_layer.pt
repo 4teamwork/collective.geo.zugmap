@@ -27,7 +27,7 @@ function() {
         }
     ]; 
 
-    return new OpenLayers.Layer.WMTS({
+    var layer = new OpenLayers.Layer.WMTS({
         name : "LuftbildPlus+",
         url : [
             "http://webdienste.zugmap.ch/OrthofotoPlus_tiled/service.svc/get"
@@ -41,5 +41,8 @@ function() {
         format : "image/png",
         isBaseLayer : true,
         zoomOffset : -11,
+        'attribution': '<span style="color: white; background-color: #333;">&copy; GISZug</span>'
     });
+
+    return layer
 }

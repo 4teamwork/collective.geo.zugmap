@@ -40,6 +40,7 @@ function() {
         format : "image/png",
         isBaseLayer : true,
         zoomOffset : -11,
-        tileOrigin : null
+        tileOrigin : null,
+        'attribution': '<span style="color: white; background-color: #333;">&copy; GISZug</span>'
     });
 }
