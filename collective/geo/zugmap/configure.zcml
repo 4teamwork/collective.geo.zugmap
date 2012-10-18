@@ -9,9 +9,6 @@
     <!-- Include configuration for dependencies listed in setup.py -->
     <includeDependencies package="." />
 
-    <!-- Grok the package to initialise schema interfaces and content classes -->
-    <grok:grok package="." />
-
     <!-- Register an extension profile to make the product installable -->
     <genericsetup:registerProfile
         name="default"
