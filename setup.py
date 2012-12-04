@@ -11,9 +11,9 @@ setup(name='collective.geo.zugmap',
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
-        ],
+          "Framework :: Plone",
+          "Programming Language :: Python",
+      ],
       keywords='directory plone dexterity',
       author='Seantis GmbH',
       author_email='info@seantis.ch',
