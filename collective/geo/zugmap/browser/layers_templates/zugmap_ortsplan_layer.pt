@@ -29,7 +29,7 @@ function() {
     return new OpenLayers.Layer.WMTS({
         name : "Ortsplan",
         url : [
-            "http://webdienste.zugmap.ch/ortsplan_tiled/service.svc/get"
+            "https://maps.zug.ch/ortsplan_tiled/service.svc/get"
         ],
         layer : "Ortsplan",
         matrixSet : "Ortsplan",
