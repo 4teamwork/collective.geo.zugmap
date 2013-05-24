@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.0 (unreleased)
-----------------
+1.0
+---
 
 - Removed unnecessary GS profile dependency on plone.app.dexterity:default.
   [lgraf]
