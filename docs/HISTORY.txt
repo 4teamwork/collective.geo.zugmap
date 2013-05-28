@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.1
+-----
+
+- Adds missing pt files to release
+  [jone]
 
 1.0
 ---
