@@ -41,7 +41,7 @@ function() {
         format : "image/png",
         isBaseLayer : true,
         zoomOffset : -11,
-        'attribution': '<span style="color: white; background-color: #333;">&copy; GISZug</span>'
+        'attribution': '<span style="color: white; background-color: #333;">Quelle: GIS Zug</span>'
     });
 
     return layer
