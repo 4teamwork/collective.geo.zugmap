@@ -41,6 +41,6 @@ function() {
         isBaseLayer : true,
         zoomOffset : -11,
         tileOrigin : null,
-        'attribution': '<span style="color: white; background-color: #333;">&copy; GISZug</span>'
+        'attribution': '<span style="color: white; background-color: #333;">Quelle: GIS Zug</span>'
     });
 }
