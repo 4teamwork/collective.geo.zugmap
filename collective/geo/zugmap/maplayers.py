@@ -10,5 +10,5 @@ class ZugMapOrtsplanLayer(MapLayer):
 
 class ZugMapOrthofotoPlus(MapLayer):
     name = u"zugmap_orthofotoplus"
-    Title = _(u"Zugmap LuftbildPlus+")
+    Title = _(u"Zugmap Luftbild+")
     type = 'zugmap'
