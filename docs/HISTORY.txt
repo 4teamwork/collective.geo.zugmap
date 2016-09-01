@@ -1,6 +1,19 @@
 Changelog
 =========
 
+1.0.3
+-----
+
+- Rename "Luftbild+" back to "LuftbildPlus+".
+  [msom]
+
+- Rename "GIS Zug" to "GIS Kanton Zug".
+  [msom]
+
+- Show the source in the layer name-
+  [msom]
+
+
 1.0.2
 -----
 
