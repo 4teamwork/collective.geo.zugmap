@@ -2,5 +2,6 @@ recursive-include collective *
 recursive-include docs *
 include *.txt
 include *.rst
+include *.md
 global-exclude *.mo
 global-exclude *.pyc
