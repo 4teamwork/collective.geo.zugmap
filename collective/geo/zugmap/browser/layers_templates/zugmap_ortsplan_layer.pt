@@ -29,7 +29,7 @@ function() {
     return new OpenLayers.Layer.WMTS({
         name : "Ortsplan (GIS Kanton Zug)",
         url : [
-            "https://maps.zug.ch/ortsplan_tiled/service.svc/get"
+            "https://maps.zg.ch/ortsplan_tiled/service.svc/get"
         ],
         layer : "Ortsplan",
         matrixSet : "Ortsplan",
