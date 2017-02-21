@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.5 (unreleased)
+1.0.5 (2017-02-17)
 ------------------
 
 - Load maps from "maps.zg.ch" instead of "maps.zug.ch".
