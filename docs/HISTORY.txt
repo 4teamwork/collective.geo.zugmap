@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.6 (unreleased)
+1.0.6 (2019-11-11)
 ------------------
 
 - Update classifiers (incl. Plone 5 support) [Nachtalb]
