@@ -27,12 +27,13 @@ function() {
     ];
 
     return new OpenLayers.Layer.WMTS({
-        name : "Ortsplan (GIS Kanton Zug)",
+        name : "Ortsplan des Kantons Zug",
         url : [
-            "https://maps.zg.ch/ortsplan_tiled/service.svc/get"
+            "https://services.geo.zg.ch/tc/wmts"
         ],
-        layer : "Ortsplan",
-        matrixSet : "Ortsplan",
+        layer : "zg.ortsplan",
+        matrixSet : "zg",
+        requestEncoding: "REST",
         matrixIds : zugmap_matrixids,
         tileFullExtent : new OpenLayers.Bounds(919690.324327, 5948635.289264, 978393.96205, 5987771.047746),
         maxExtent : new OpenLayers.Bounds(919690.324327, 5948635.289264, 978393, 5987771),
