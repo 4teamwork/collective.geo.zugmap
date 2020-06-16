@@ -1,10 +1,11 @@
 Changelog
 =========
 
-1.0.7 (unreleased)
+2.0.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Move to new API (https://services.geo.zg.ch/tc/wmts/1.0.0/WMTSCapabilities.xml).
+  [busykoala]
 
 
 1.0.6 (2019-11-11)
