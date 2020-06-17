@@ -7,7 +7,7 @@
     <browser:page
         name="zugmap_ortsplan-layer"
         for="*"
-        template="layers_templates/zugmap_ortsplan_layer.pt"
+        class=".zugmap.ZugMap"
         permission="zope.Public"
         />
 
