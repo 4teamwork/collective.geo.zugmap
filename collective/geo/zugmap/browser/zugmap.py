@@ -6,18 +6,25 @@ class ZugMap(BrowserView):
     def __call__(self):
         js_string = '''
             function() {
+                /* https://github.com/Safecast/GeoSense/blob/master/public/lib/openlayers/OpenLayers-2.13.1/tests/Layer/WMTS.html */
+
                 var html = `%s`;
                 var doc = new OpenLayers.Format.XML().read(html);
                 var obj = new OpenLayers.Format.WMTSCapabilities().read(doc);
 
-                /* https://github.com/Safecast/GeoSense/blob/master/public/lib/openlayers/OpenLayers-2.13.1/tests/Layer/WMTS.html */
+                var wmts_layer = "zg.ortsplan";
+                var url_template = obj.contents.layers.find(
+                    x => x.identifier === wmts_layer
+                ).resourceUrls[0].template;
+
                 var layer = new OpenLayers.Layer.WMTS({
                     name: "Ortsplan des Kantons Zug",
                     requestEncoding: "REST",
-                    url: "https://services.geo.zg.ch/tc/wmts",
-                    layer: "zg.ortsplan",
+                    url: url_template,
+                    layer: wmts_layer,
                     style: "default",
                     matrixSet: "zg",
+                    tileSize: new OpenLayers.Size(512, 512),
                     format: "image/png",
                     matrixIds: obj.contents.tileMatrixSets["zg"].matrixIds,
                     'attribution': '<span style="color: white; background-color: #333;">Quelle: GIS Kanton Zug</span>'
