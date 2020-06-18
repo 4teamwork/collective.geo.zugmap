@@ -7,6 +7,7 @@ class ZugMap(BrowserView):
         js_string = '''
             function() {
                 /* https://github.com/Safecast/GeoSense/blob/master/public/lib/openlayers/OpenLayers-2.13.1/tests/Layer/WMTS.html */
+                /* https://github.com/Safecast/GeoSense/blob/19d4c01999a06c061a94f7d9a6c98d2916e44526/public-build/lib/openlayers/OpenLayers-2.13.1/tests/Layer/WMTS.html#L205-L214 */
 
                 var html = `%s`;
                 var doc = new OpenLayers.Format.XML().read(html);
@@ -24,7 +25,6 @@ class ZugMap(BrowserView):
                     layer: wmts_layer,
                     style: "default",
                     matrixSet: "zg",
-                    tileSize: new OpenLayers.Size(512, 512),
                     format: "image/png",
                     matrixIds: obj.contents.tileMatrixSets["zg"].matrixIds,
                     'attribution': '<span style="color: white; background-color: #333;">Quelle: GIS Kanton Zug</span>'
