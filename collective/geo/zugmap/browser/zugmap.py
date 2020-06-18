@@ -40,6 +40,7 @@ class ZugMapBase(BrowserView):
                     format: "image/png",
                     matrixIds: obj.contents.tileMatrixSets["zg"].matrixIds,
                     projection: new OpenLayers.Projection("EPSG:2056"),
+                    tileSize: new OpenLayers.Size(512, 512),
                     'attribution': '<span style="color: white; background-color: #333;">Quelle: GIS Kanton Zug</span>'
                 });
 
