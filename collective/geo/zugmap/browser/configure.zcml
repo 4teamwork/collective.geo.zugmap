@@ -7,14 +7,14 @@
     <browser:page
         name="zugmap_ortsplan-layer"
         for="*"
-        class=".zugmap.ZugMap"
+        class=".zugmap.ZugMapOrtsplan"
         permission="zope.Public"
         />
 
     <browser:page
         name="zugmap_orthofotoplus-layer"
         for="*"
-        template="layers_templates/zugmap_orthofotoplus_layer.pt"
+        class=".zugmap.ZugMapOrthoPlus"
         permission="zope.Public"
         />
 
